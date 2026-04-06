@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-space-grotesk);
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #0a0a0a;
+    --primary: #FFB703;
+    --primary-foreground: #0a0a0a;
+    --accent: #FB8500;
+    --accent-foreground: #ffffff;
+    --secondary: #6C63FF;
+    --secondary-foreground: #ffffff;
+    --muted: #f3f4f6;
+    --muted-foreground: #6b7280;
+    --border: #e5e7eb;
+  }
+
+  .dark {
+    --background: #000000;
+    --foreground: #ffffff;
+    --primary: #FFB703;
+    --primary-foreground: #000000;
+    --accent: #FB8500;
+    --accent-foreground: #ffffff;
+    --secondary: #6C63FF;
+    --secondary-foreground: #ffffff;
+    --muted: #111111;
+    --muted-foreground: #9ca3af;
+    --border: #222222;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
