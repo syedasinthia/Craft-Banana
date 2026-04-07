@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import { motion } from 'motion/react';
+import Image from 'next/image';
 
 export function About() {
   return (
@@ -13,17 +14,15 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-black"
+            className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-muted"
           >
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="absolute inset-0 w-full h-full object-cover opacity-80 grayscale hover:grayscale-0 transition-all duration-1000"
-            >
-              <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />
-            </video>
+            <Image
+              src="https://picsum.photos/seed/studio/800/1000"
+              alt="Our Studio"
+              fill
+              className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+              referrerPolicy="no-referrer"
+            />
           </motion.div>
 
           <div className="flex flex-col justify-center">

@@ -3,7 +3,6 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { motion, useScroll, useMotionValueEvent } from 'motion/react';
-import { ThemeToggle } from './theme-toggle';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
@@ -53,7 +52,6 @@ export function Navbar() {
             ))}
           </ul>
           <div className="flex items-center gap-4">
-            <ThemeToggle />
             <Link
               href="#contact"
               className="bg-foreground text-background hover:bg-primary hover:text-primary-foreground px-5 py-2 rounded-full text-sm font-medium transition-colors"
@@ -65,7 +63,6 @@ export function Navbar() {
 
         {/* Mobile Nav Toggle */}
         <div className="flex items-center gap-4 md:hidden z-50">
-          <ThemeToggle />
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="p-2 -mr-2 text-foreground"

@@ -17,11 +17,11 @@ export function Footer() {
               Ready to elevate your visual content? Drop us a line and we&apos;ll get back to you shortly.
             </p>
             <a 
-              href="mailto:hello@craftbanana.com" 
-              className="inline-flex items-center gap-3 text-3xl md:text-4xl font-medium hover:text-primary transition-colors border-b-2 border-background/20 hover:border-primary pb-2"
+              href="mailto:contact.craftbanana@gmail.com" 
+              className="inline-flex items-center gap-3 text-3xl md:text-4xl font-medium hover:text-primary transition-colors border-b-2 border-background/20 hover:border-primary pb-2 break-all"
             >
-              hello@craftbanana.com
-              <ArrowUpRight className="w-8 h-8" />
+              contact.craftbanana@gmail.com
+              <ArrowUpRight className="w-8 h-8 flex-shrink-0" />
             </a>
           </div>
 
