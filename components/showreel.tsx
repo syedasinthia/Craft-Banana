@@ -32,7 +32,7 @@ export function Showreel() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-xl md:text-2xl text-muted max-w-3xl font-light"
           >
-            A curated glimpse into our visual language. One minute of pure, unadulterated storytelling.
+            A showcase of our editing style, creative vision, and storytelling approach.
           </motion.p>
         </div>
 
@@ -55,7 +55,7 @@ export function Showreel() {
           ) : (
             <>
               <Image
-                src="https://picsum.photos/seed/showreel/1920/1080"
+                src="https://img.youtube.com/vi/d9TSrlgiWsY/maxresdefault.jpg"
                 alt="Showreel Thumbnail"
                 fill
                 className="object-cover transition-transform duration-1000 group-hover:scale-105 grayscale group-hover:grayscale-0"

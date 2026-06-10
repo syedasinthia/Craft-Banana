@@ -17,8 +17,8 @@ export function About() {
             className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-muted"
           >
             <Image
-              src="https://picsum.photos/seed/studio/800/1000"
-              alt="Our Studio"
+              src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=800&h=1000&q=80"
+              alt="Our Cinema Post-Production Studio"
               fill
               className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
               referrerPolicy="no-referrer"

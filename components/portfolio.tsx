@@ -8,33 +8,33 @@ import { Play } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: 'Neon Nights',
-    category: 'Music Video',
-    image: 'https://picsum.photos/seed/neon/1200/800',
+    title: 'Rhythm of the Subconscious',
+    category: 'Music Video (Spotify Sessions)',
+    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&h=800&q=80',
   },
   {
     id: 2,
-    title: 'Urban Flow',
-    category: 'Commercial',
-    image: 'https://picsum.photos/seed/urban/1200/800',
+    title: 'Breaking Boundaries',
+    category: 'Commercial (Nike Run Club)',
+    image: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&h=800&q=80',
   },
   {
     id: 3,
-    title: 'The Ascent',
-    category: 'Documentary',
-    image: 'https://picsum.photos/seed/mountain/1200/800',
+    title: 'To the Ends of the Earth',
+    category: 'Documentary (Patagonia)',
+    image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&h=800&q=80',
   },
   {
     id: 4,
-    title: 'Speed & Sound',
-    category: 'Automotive',
-    image: 'https://picsum.photos/seed/car/1200/800',
+    title: 'The Icon Reloaded',
+    category: 'Automotive (Porsche Motorsport)',
+    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&h=800&q=80',
   },
   {
     id: 5,
-    title: 'Culinary Arts',
-    category: 'Social Content',
-    image: 'https://picsum.photos/seed/food/1200/800',
+    title: 'The Craft of Coffee',
+    category: 'Social Content (Blue Bottle)',
+    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&h=800&q=80',
   },
 ];
 
