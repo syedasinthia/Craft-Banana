@@ -51,15 +51,20 @@ export function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative p-8 md:p-10 rounded-3xl bg-muted/30 border border-border overflow-hidden hover:border-primary/50 transition-colors duration-500"
+              className="group relative p-8 md:p-10 rounded-3xl bg-muted/20 border border-border/80 overflow-hidden hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5"
             >
-              <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-primary/10 transition-colors duration-500" />
+              <div className="absolute top-0 right-0 w-64 h-64 bg-primary/2 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-primary/5 transition-colors duration-500" />
               
-              <div className="relative z-10">
-                <div className="w-14 h-14 rounded-2xl bg-background border border-border flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-colors duration-300">
-                  <service.icon className="w-7 h-7" />
+              <div className="relative z-10 flex flex-col h-full">
+                {/* Small minimal icon */}
+                <div className="w-10 h-10 rounded-xl bg-background border border-border flex items-center justify-center text-muted-foreground group-hover:text-primary group-hover:border-primary/50 transition-all duration-300">
+                  <service.icon className="w-5 h-5" />
                 </div>
-                <h3 className="text-2xl font-bold mb-3 tracking-tight">{service.title}</h3>
+
+                {/* Thin divider line */}
+                <div className="w-full h-[1px] bg-border/60 my-5 group-hover:bg-primary/10 transition-colors duration-300" />
+
+                <h3 className="text-2xl font-bold mb-3 tracking-tight text-foreground transition-colors duration-300 group-hover:text-primary">{service.title}</h3>
                 <p className="text-muted-foreground leading-relaxed font-light">
                   {service.description}
                 </p>
