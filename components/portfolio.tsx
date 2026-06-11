@@ -29,10 +29,10 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Fabinho Squash',
-    category: 'Social Content',
-    image: 'https://img.youtube.com/vi/u4lJLZshDwk/maxresdefault.jpg',
-    videoUrl: 'https://www.youtube.com/embed/u4lJLZshDwk',
+    title: 'Future Frames',
+    category: 'AI Commercial',
+    image: 'https://img.youtube.com/vi/EQjTrovvh28/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/EQjTrovvh28',
   },
   {
     id: 5,
